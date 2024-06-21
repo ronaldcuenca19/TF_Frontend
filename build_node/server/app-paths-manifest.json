@@ -1,0 +1,8 @@
+{
+  "/lote/APunto/page": "app/lote/APunto/page.js",
+  "/usuario/page": "app/usuario/page.js",
+  "/foto_perfil/[external]/page": "app/foto_perfil/[external]/page.js",
+  "/facturacion/page": "app/facturacion/page.js",
+  "/principal/page": "app/principal/page.js",
+  "/login/page": "app/login/page.js"
+}
