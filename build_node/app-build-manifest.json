@@ -1,10 +1,9 @@
 {
   "pages": {
-    "/lote/page": [
+    "/principal/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/lote/page.css",
-      "static/chunks/app/lote/page.js"
+      "static/chunks/app/principal/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -12,72 +11,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/detalle/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/detalle/page.js"
+    ],
+    "/detalle/nota/[external]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/detalle/nota/[external]/page.js"
+    ],
     "/login/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/login/page.js"
-    ],
-    "/principal/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/principal/page.js"
-    ],
-    "/producto/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/producto/page.js"
-    ],
-    "/producto/registrar/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/producto/registrar/page.js"
-    ],
-    "/foto/[external]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/foto/[external]/page.js"
-    ],
-    "/producto/editar/[external]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/producto/editar/[external]/page.js"
-    ],
-    "/lote/registrar/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/lote/registrar/page.js"
-    ],
-    "/lote/caducado/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/lote/caducado/page.css",
-      "static/chunks/app/lote/caducado/page.js"
-    ],
-    "/lote/APunto/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/lote/APunto/page.css",
-      "static/chunks/app/lote/APunto/page.js"
-    ],
-    "/usuario/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/usuario/page.js"
-    ],
-    "/usuario/editar/[external]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/usuario/editar/[external]/page.js"
-    ],
-    "/foto_perfil/[external]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/foto_perfil/[external]/page.js"
-    ],
-    "/facturacion/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/facturacion/page.js"
     ]
   }
 }

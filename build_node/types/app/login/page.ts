@@ -1,4 +1,4 @@
-// File: /home/ubuntu/Imágenes/practica3_frontend/src/app/login/page.jsx
+// File: /home/ubuntu/Vídeos/Seguimiento(Frontend)/src/app/login/page.jsx
 import * as entry from '../../../../src/app/login/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

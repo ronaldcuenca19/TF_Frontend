@@ -22,25 +22,7 @@ export async function middleware(req) {
         }
     }
 
-    if (req.url.includes("/producto/registrar") || req.url.includes("/producto")) {
-        if (token === undefined) {
-            return NextResponse.redirect(new URL("/login", req.url));
-        }
-    }
-
-    if (req.url.includes("/lote") || req.url.includes("/lote/registrar")) {
-        if (token === undefined) {
-            return NextResponse.redirect(new URL("/login", req.url));
-        }
-    }
-
-    if (req.url.includes("/usuario") || req.url.includes("/usuario/registrar")) {
-        if (token === undefined) {
-            return NextResponse.redirect(new URL("/login", req.url));
-        }
-    }
-
-    if (req.url.includes("/facturacion")) {
+    if (req.url.includes("/detalle") || req.url.includes("/detalle/nota/<external>")) {
         if (token === undefined) {
             return NextResponse.redirect(new URL("/login", req.url));
         }
@@ -48,13 +30,7 @@ export async function middleware(req) {
 
     const protectedRoutes = [
         "/principal",
-        "/producto/registrar",
-        "/producto",
-        "/lote",
-        "/lote/registrar",
-        "/usuario",
-        "/usuario/registrar",
-        "/facturacion"
+        "/detalle",
     ];
 
     // Verificar si la ruta actual requiere token

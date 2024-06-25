@@ -37,3 +37,20 @@ export const GET = async (resource, token = "NONE") => {
     }
     return await axios.get(URL + resource, headers);
 }
+
+export const DELETE = async (resource, token = "NONE") => {
+    let headers = {
+        headers: {
+            "Accept": "application/json",
+        }
+    }
+    if (token !== "NONE") {
+        headers = {
+            headers: {
+                "Accept": "application/json",
+                "X-Access-Token": token
+            }
+        }
+    }
+    return await axios.delete(URL + resource, headers);
+}
